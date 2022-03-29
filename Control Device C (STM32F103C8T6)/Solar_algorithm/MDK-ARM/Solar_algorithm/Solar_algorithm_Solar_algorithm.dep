@@ -1,0 +1,522 @@
+Dependencies for Project 'Solar_algorithm', Target 'Solar_algorithm': (DO NOT MODIFY !)
+F (startup_stm32f103xb.s)(0x5ED57826)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list startup_stm32f103xb.lst --xref -o solar_algorithm\startup_stm32f103xb.o --depend solar_algorithm\startup_stm32f103xb.d)
+F (../Core/Src/main.c)(0x5ED80D68)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\main.o --omf_browse solar_algorithm\main.crf --depend solar_algorithm\main.d)
+I (../Core/Inc/main.h)(0x5ED639AD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+I (../Core/Inc/dma.h)(0x5ED5781F)
+I (../Core/Inc/tim.h)(0x5ED57820)
+I (../Core/Inc/gpio.h)(0x5ED5781F)
+I (../Core/Inc/ws2812.h)(0x5ED61CA0)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F137C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F137C)
+F (../Core/Src/gpio.c)(0x5ED5781F)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\gpio.o --omf_browse solar_algorithm\gpio.crf --depend solar_algorithm\gpio.d)
+I (../Core/Inc/gpio.h)(0x5ED5781F)
+I (../Core/Inc/main.h)(0x5ED639AD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Core/Src/dma.c)(0x5ED5781F)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\dma.o --omf_browse solar_algorithm\dma.crf --depend solar_algorithm\dma.d)
+I (../Core/Inc/dma.h)(0x5ED5781F)
+I (../Core/Inc/main.h)(0x5ED639AD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Core/Src/tim.c)(0x5ED57820)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\tim.o --omf_browse solar_algorithm\tim.crf --depend solar_algorithm\tim.d)
+I (../Core/Inc/tim.h)(0x5ED57820)
+I (../Core/Inc/main.h)(0x5ED639AD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Core/Src/stm32f1xx_it.c)(0x5ED80FDB)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\stm32f1xx_it.o --omf_browse solar_algorithm\stm32f1xx_it.crf --depend solar_algorithm\stm32f1xx_it.d)
+I (../Core/Inc/main.h)(0x5ED639AD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+I (../Core/Inc/stm32f1xx_it.h)(0x5ED57821)
+I (../Core/Inc/tim.h)(0x5ED57820)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x5ED57821)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\stm32f1xx_hal_msp.o --omf_browse solar_algorithm\stm32f1xx_hal_msp.crf --depend solar_algorithm\stm32f1xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x5ED639AD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (..\Core\Src\ws2812.c)(0x5CF051CC)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\ws2812.o --omf_browse solar_algorithm\ws2812.crf --depend solar_algorithm\ws2812.d)
+I (../Core/Inc/ws2812.h)(0x5ED61CA0)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F137C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F137C)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x5DC2EC17)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\stm32f1xx_hal_gpio_ex.o --omf_browse solar_algorithm\stm32f1xx_hal_gpio_ex.crf --depend solar_algorithm\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x5DC2EC18)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\stm32f1xx_hal_tim.o --omf_browse solar_algorithm\stm32f1xx_hal_tim.crf --depend solar_algorithm\stm32f1xx_hal_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x5DC2EC18)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\stm32f1xx_hal_tim_ex.o --omf_browse solar_algorithm\stm32f1xx_hal_tim_ex.crf --depend solar_algorithm\stm32f1xx_hal_tim_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x5DC2EC17)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\stm32f1xx_hal.o --omf_browse solar_algorithm\stm32f1xx_hal.crf --depend solar_algorithm\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x5DC2EC18)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\stm32f1xx_hal_rcc.o --omf_browse solar_algorithm\stm32f1xx_hal_rcc.crf --depend solar_algorithm\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x5DC2EC18)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\stm32f1xx_hal_rcc_ex.o --omf_browse solar_algorithm\stm32f1xx_hal_rcc_ex.crf --depend solar_algorithm\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x5DC2EC17)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\stm32f1xx_hal_gpio.o --omf_browse solar_algorithm\stm32f1xx_hal_gpio.crf --depend solar_algorithm\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x5DC2EC17)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\stm32f1xx_hal_dma.o --omf_browse solar_algorithm\stm32f1xx_hal_dma.crf --depend solar_algorithm\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x5DC2EC17)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\stm32f1xx_hal_cortex.o --omf_browse solar_algorithm\stm32f1xx_hal_cortex.crf --depend solar_algorithm\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x5DC2EC18)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\stm32f1xx_hal_pwr.o --omf_browse solar_algorithm\stm32f1xx_hal_pwr.crf --depend solar_algorithm\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x5DC2EC17)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\stm32f1xx_hal_flash.o --omf_browse solar_algorithm\stm32f1xx_hal_flash.crf --depend solar_algorithm\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x5DC2EC17)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\stm32f1xx_hal_flash_ex.o --omf_browse solar_algorithm\stm32f1xx_hal_flash_ex.crf --depend solar_algorithm\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)
+F (../Core/Src/system_stm32f1xx.c)(0x5DC2EBB6)(--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Solar_algorithm-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o solar_algorithm\system_stm32f1xx.o --omf_browse solar_algorithm\system_stm32f1xx.crf --depend solar_algorithm\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DC2EBB4)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DC2EC12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DC2EC12)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DC2EBB5)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DC2EC14)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5ED57821)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5ED58BE7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DC2EC14)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DC2EC15)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5DC2EC16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5DC2EC16)

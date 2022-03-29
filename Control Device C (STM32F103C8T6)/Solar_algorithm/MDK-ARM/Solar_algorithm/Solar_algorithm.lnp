@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"solar_algorithm\startup_stm32f103xb.o"
+"solar_algorithm\main.o"
+"solar_algorithm\gpio.o"
+"solar_algorithm\dma.o"
+"solar_algorithm\tim.o"
+"solar_algorithm\stm32f1xx_it.o"
+"solar_algorithm\stm32f1xx_hal_msp.o"
+"solar_algorithm\ws2812.o"
+"solar_algorithm\stm32f1xx_hal_gpio_ex.o"
+"solar_algorithm\stm32f1xx_hal_tim.o"
+"solar_algorithm\stm32f1xx_hal_tim_ex.o"
+"solar_algorithm\stm32f1xx_hal.o"
+"solar_algorithm\stm32f1xx_hal_rcc.o"
+"solar_algorithm\stm32f1xx_hal_rcc_ex.o"
+"solar_algorithm\stm32f1xx_hal_gpio.o"
+"solar_algorithm\stm32f1xx_hal_dma.o"
+"solar_algorithm\stm32f1xx_hal_cortex.o"
+"solar_algorithm\stm32f1xx_hal_pwr.o"
+"solar_algorithm\stm32f1xx_hal_flash.o"
+"solar_algorithm\stm32f1xx_hal_flash_ex.o"
+"solar_algorithm\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Solar_algorithm\Solar_algorithm.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Solar_algorithm.map" -o Solar_algorithm\Solar_algorithm.axf
